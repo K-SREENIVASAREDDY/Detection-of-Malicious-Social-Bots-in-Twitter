@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Malicious Social Bots </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+ 
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../static/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../static/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Groovin - v4.0.1
+  * Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Malicious</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="{{ url_for('index')}}">Home</a></li>
+          
+          <li><a class="nav-link scrollto" href="#services">Abstract</a></li>
+		  <li><a class="nav-link scrollto " href="{{ url_for('upload')}}">upload</a></li>
+          <li><a class="nav-link scrollto " href="{{ url_for('login')}}">Login</a></li>
+		 <li><a class="nav-link scrollto " href="{{ url_for('register')}}">Register</a></li>
+		 <li><a class="nav-link scrollto " href="{{ url_for('loginadmin')}}">Admin</a></li>
+        
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background: url(../static/img/mal.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Detection of Malicious Social Bots Using Learning</h2>
+                <p class="animate__animated animate__fadeInUp">Automata With URL Features in Twitter Network</p>
+                <div>
+              
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background: url(../static/img/mal5.png);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Detection of Malicious Social Bots Using Learning</h2>
+                <p class="animate__animated animate__fadeInUp">Automata With URL Features in Twitter Network</p>
+                <div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+    
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    
+    
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Abstract</h2>
+          <p style="color:black">Malicious social bots generate fake tweets and
+automate their social relationships either by pretending like a
+follower or by creating multiple fake accounts with malicious
+activities. Moreover, malicious social bots post shortened malicious URLs in the tweet in order to redirect the requests of
+online social networking participants to some malicious servers.
+Hence, distinguishing malicious social bots from legitimate users
+is one of the most important tasks in the Twitter network.
+To detect malicious social bots, extracting URL-based features
+(such as URL redirection, frequency of shared URLs, and spam
+content in URL) consumes less amount of time in comparison
+with social graph-based features (which rely on the social interactions of users). Furthermore, malicious social bots cannot easily
+manipulate URL redirection chains. In this article, a learning
+automata-based malicious social bot detection (LA-MSBD) algorithm is proposed by integrating a trust computation model with
+URL-based features for identifying trustworthy participants
+(users) in the Twitter network. The proposed trust computation model contains two parameters, namely, direct trust and
+indirect trust. Moreover, the direct trust is derived from Bayes’
+theorem, and the indirect trust is derived from the Dempster–
+Shafer theory (DST) to determine the trustworthiness of each
+participant accurately. Experimentation has been performed on
+two Twitter data sets, and the results illustrate that the proposed
+algorithm achieves improvement in precision, recall, F-measure,
+and accuracy compared with existing approaches for MSBD.</p>
+        </div>
+
+
+
+
+         
+        </div>
+
+       
+    </section> 
+ 
+     
+
+ 
+
+   
+
+ 
+    
+
+ 
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+           
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+       
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+         
+      </div>
+      <div class="credits">
+        
+        
+    </div>
+  </footer> 
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../static/vendor/php-email-form/validate.js"></script>
+  <script src="../static/vendor/purecounter/purecounter.js"></script>
+  <script src="../static/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../static/js/main.js"></script>
+
+</body>
+
+</html>
